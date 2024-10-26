@@ -1,0 +1,61 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.image{
+	height: 500px;
+	width: 500px;
+	float: left;
+	border: 50px solid black;
+	margin-right: 20px;
+}
+.head{
+	height: 300px;
+	width: 500px;
+	border: 3px solid black;
+	padding: 20px;
+	background-color: turquoise;
+	margin: 20px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.heads{
+	height: 600px;
+	width: 800px;
+	border: 3px solid black;
+	padding: 20px;
+	background-color: palevioletred;
+	margin: 20px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 350px;
+	
+}
+
+.bold{
+	border: 3px solid black;
+	background-color: seagreen;
+	margin: 15px;
+}
+.tale{
+	border: 3px solid black;
+	background-color: turquoise;
+	margin: 15px;
+}
+
+.smt{
+	width: 200px;
+	border: 5px solid blueviolet;
+	font-style:italic;
+}
+.container{
+	background-image: url('https://img.freepik.com/free-photo/close-up-hand-with-painting-pallete_23-2148915877.jpg?ga=GA1.1.781771274.1726552238&semt=ais_hybrid');
+	height: 200px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 3000px;
+}	

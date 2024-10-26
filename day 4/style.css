@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container .header {
+  background-image: url("https://img.freepik.com/free-photo/yellow-wall-texture-with-scratches_1249-77.jpg?ga=GA1.1.781771274.1726552238&semt=ais_hybrid");
+  height: 150px;
+}
+.container .header .navigation ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.container .header .navigation ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 20px;
+}
+.container .header .navigation ul li a {
+  text-decoration: none;
+  color: aquamarine;
+}
+.container .header .navigation ul li a:hover {
+  color: brown;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.product ul li {
+  list-style: none;
+}
+.product ul li .item {
+  padding: 20px;
+  width: 350px;
+  height: 400px;
+  background-color: aqua;
+  margin: 10px;
+  text-align: center;
+  color: rgb(117, 83, 39);
+  position: relative;
+}
+.product ul li .item:hover {
+  color: brown;
+  background-color: black;
+}
+.product ul li .item p {
+  font-size: medium;
+}
+.product ul li .item img {
+  height: 200px;
+  width: 250px;
+}
+.product ul li .item button {
+  position: absolute;
+  width: 390px;
+  height: 20px;
+  bottom: 0%;
+  left: 0%;
+  background-color: violet;
+}
+.product ul li .item button:hover {
+  color: brown;
+  background-color: beige;
+}/*# sourceMappingURL=style.css.map */
