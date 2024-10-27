@@ -10,16 +10,15 @@ body {
     align-items: center;
     height: 100vh;
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
+    background-color: #224271;
 }
 
 .container {
     width: 400px;
     padding: 20px;
-    background-color: #e15f5f;
+    background-color: hsl(39, 49%, 56%);
     border-radius: 15px;
     box-shadow: 50px 50px 15px rgba(19, 17, 17, 0.2);
-
 }
 
 h2 {
@@ -48,7 +47,7 @@ input[type="password"] {
 
 input[type="text"]:focus,
 input[type="password"]:focus {
-    border-color: #007bff;
+    border-color: #a52121;
 }
 
 .error-message {
@@ -61,7 +60,7 @@ input[type="password"]:focus {
 .button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #50378f;
     color: #fff;
     border: none;
     border-radius: 5px;

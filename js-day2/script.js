@@ -1,5 +1,3 @@
-username ="suhail1341@gmail.com"
-
 function fnvalidate() {
     let isValid = true;
 
@@ -12,8 +10,7 @@ function fnvalidate() {
     } else {
         firstNameError.style.display = "none";
     }
-
-  
+    console.log(inputFirstName);
     let inputLastName = document.getElementById("last_name").value;
     let lastNameError = document.getElementById("last-name-error");
     if (inputLastName.length < 5) {
@@ -23,19 +20,18 @@ function fnvalidate() {
     } else {
         lastNameError.style.display = "none";
     }
+    console.log(inputLastName);
 
-  
     let inputUsername = document.getElementById("username").value;
     let usernameError = document.getElementById("username-error");
-    if (inputUsername !== username) {
-        usernameError.innerText = "enter proper username .";
+    if (inputUsername.length < 5) {
         usernameError.style.display = "block";
         isValid = false;
     } else {
         usernameError.style.display = "none";
     }
+    console.log(inputUsername)
 
-  
     let inputPassword = document.getElementById("password").value;
     let passwordError = document.getElementById("password-error");
     if (inputPassword.length < 8) {
@@ -45,8 +41,7 @@ function fnvalidate() {
     } else {
         passwordError.style.display = "none";
     }
-
-    
+    console.log(inputPassword)
     let inputConfirmPassword = document.getElementById("confirm_password").value;
     let confirmPasswordError = document.getElementById("confirm-password-error");
     if (inputPassword !== inputConfirmPassword) {
