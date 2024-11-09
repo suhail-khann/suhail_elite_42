@@ -51,7 +51,7 @@ input[type="password"]:focus {
 }
 
 .error-message {
-    color: rgb(21, 212, 98);
+    color: rgb(241, 33, 9);
     font-size: 0.85em;
     display: none;
     margin-bottom: 10px;
